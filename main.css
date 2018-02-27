@@ -1,0 +1,12 @@
+html {
+    background-color: black;
+}
+
+body {
+    color: lime;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+}
