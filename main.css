@@ -1,6 +1,7 @@
 body {
     color: rgb(27, 29, 29);
     background-color: whitesmoke;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -117,11 +118,15 @@ ul {
 
 .astrrisk {
     text-transform: capitalize;
-    background: rgb(68, 127, 216);
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/typeF/AstrRisk/master/docs/Main%20Screen%20SS.png");
+    background-size: 900px 520px;
 }
+
 .beholder {
     text-transform: capitalize;
-    background: rgb(68, 127, 216);
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://github.com/claytonsavage/Beholder/blob/master/Beholder%20Screenshots/Todolist.png?raw=true");
+    background-size: 900px 320px;
+    background-position: 400px 300px;
 }
 .tinyurl {
     text-transform: capitalize;
@@ -143,12 +148,14 @@ ul {
 .astrriskback {
     color: white;
     transform: perspective(300px) rotateY(0deg);
-    background-color: rgb(68, 127, 216);
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/typeF/AstrRisk/master/docs/Main%20Screen%20SS.png");
+    background-size: 500px 300px;
 }
 .beholderback {
     color: white;
     transform: perspective(300px) rotateY(0deg);
-    background-color: rgb(68, 127, 216);
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://github.com/claytonsavage/Beholder/blob/master/Beholder%20Screenshots/Todolist.png?raw=true");
+    background-size: 500px 200px;
 }
 .tinyurlback {
     color: white;
@@ -202,20 +209,24 @@ ul {
 
 footer {
     position: relative;
-    top: 850px;
+    top: 730px;
     margin-bottom: 60px;
-    height: 200px;    
+    height: 200px;   
+    text-transform: uppercase;
+    text-align: center; 
 }
 
 .btn {
     position: absolute;
     left: 50%;
-    width: 200px;
-    font-size: 2em;
+    width: 250px;
+    font-size: 1.5em;
     background-color: rgb(68, 127, 216);
     color: white;
     margin-left: -100px;
     border-radius: 0%;
+    top: 38%;
+    text-align: center; 
 }
 
 .selection {
