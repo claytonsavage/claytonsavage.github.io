@@ -29,6 +29,7 @@ img {
     left: 50%;
     position: absolute;
     top: 200px;
+    box-shadow: 0px 14px 14px 0px rgba(0, 0, 0, 0.329);
 }
 
 .headerimg {
@@ -130,19 +131,23 @@ ul {
 }
 .tinyurl {
     text-transform: capitalize;
-    background: rgb(68, 127, 216);
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/typeF/AstrRisk/master/docs/Main%20Screen%20SS.png");
+    background-size: 900px 520px;
 }
 .tweeter {
     text-transform: capitalize;
-    background: rgb(68, 127, 216);
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/typeF/AstrRisk/master/docs/Main%20Screen%20SS.png");
+    background-size: 900px 520px;
 }
 .jungle {
     text-transform: capitalize;
-    background: rgb(68, 127, 216);
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/typeF/AstrRisk/master/docs/Main%20Screen%20SS.png");
+    background-size: 900px 520px;
 }
 .chatty {
     text-transform: capitalize;
-    background: rgb(68, 127, 216);
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/typeF/AstrRisk/master/docs/Main%20Screen%20SS.png");
+    background-size: 900px 520px;
 }
 
 .astrriskback {
@@ -160,22 +165,26 @@ ul {
 .tinyurlback {
     color: white;
     transform: perspective(300px) rotateY(0deg);
-    background-color: rgb(68, 127, 216);
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/typeF/AstrRisk/master/docs/Main%20Screen%20SS.png");
+    background-size: 500px 300px;
 }
 .tweeterback {
     color: white;
     transform: perspective(300px) rotateY(0deg);
-    background-color: rgb(68, 127, 216);
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/typeF/AstrRisk/master/docs/Main%20Screen%20SS.png");
+    background-size: 500px 300px;
 }
 .jungleback {
     color: white;
     transform: perspective(300px) rotateY(0deg);
-    background-color: rgb(68, 127, 216);
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/typeF/AstrRisk/master/docs/Main%20Screen%20SS.png");
+    background-size: 500px 300px;
 }
 .chattyback {
     color: white;
     transform: perspective(300px) rotateY(0deg);
-    background-color: rgb(68, 127, 216);
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/claytonsavage/chatty-app/master/docs/ChattyApp.png");
+    background-size: 500px 300px;
 }
 
 .astrriskback p {
