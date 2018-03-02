@@ -131,22 +131,25 @@ ul {
 }
 .tinyurl {
     text-transform: capitalize;
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/typeF/AstrRisk/master/docs/Main%20Screen%20SS.png");
-    background-size: 900px 520px;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://github.com/claytonsavage/tiny-app/blob/master/docs/URLs%20screen.png?raw=true");
+    background-size: 500px 300px;
+    background-position: -15px -35px;
 }
 .tweeter {
     text-transform: capitalize;
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/typeF/AstrRisk/master/docs/Main%20Screen%20SS.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/claytonsavage/tweeter/master/documents/main.png");
     background-size: 900px 520px;
+    background-position: 550px 300px;
 }
 .jungle {
     text-transform: capitalize;
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/typeF/AstrRisk/master/docs/Main%20Screen%20SS.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/claytonsavage/jungle-rails/master/docs/product_page.png");
     background-size: 900px 520px;
+    background-position: 550px 300px;
 }
 .chatty {
     text-transform: capitalize;
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/typeF/AstrRisk/master/docs/Main%20Screen%20SS.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/claytonsavage/chatty-app/master/docs/ChattyApp.png");
     background-size: 900px 520px;
 }
 
@@ -165,19 +168,21 @@ ul {
 .tinyurlback {
     color: white;
     transform: perspective(300px) rotateY(0deg);
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/typeF/AstrRisk/master/docs/Main%20Screen%20SS.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://github.com/claytonsavage/tiny-app/blob/master/docs/URLs%20screen.png?raw=true");
     background-size: 500px 300px;
+    background-position: 400px 300px;
 }
 .tweeterback {
     color: white;
     transform: perspective(300px) rotateY(0deg);
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/typeF/AstrRisk/master/docs/Main%20Screen%20SS.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/claytonsavage/tweeter/master/documents/main.png");
     background-size: 500px 300px;
+    background-position: 400px 300px;
 }
 .jungleback {
     color: white;
     transform: perspective(300px) rotateY(0deg);
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/typeF/AstrRisk/master/docs/Main%20Screen%20SS.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/claytonsavage/jungle-rails/master/docs/product_page.png");
     background-size: 500px 300px;
 }
 .chattyback {
