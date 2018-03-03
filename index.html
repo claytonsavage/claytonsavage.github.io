@@ -10,12 +10,14 @@
 </head>
 <body>
     <div class="headerimg">
-        <img src="https://avatars3.githubusercontent.com/u/32048609?s=460&v=4" height="150px" width="150px">
+            <div class="orbit"></div>
+            <div class="orbit2"></div>
+            <div class="orbit3"></div>
+        <img class="me_image" src="https://avatars3.githubusercontent.com/u/32048609?s=460&v=4" height="150px" width="150px">
         <h1>Clayton<br>Savage</h1>
         <h2>Web Developer</h2>
-        <div class="orbit"></div>
-        <div class="orbit2"></div>
-        <div class="orbit3"></div>
+        <h3>CONTACT ME</h3>
+       
     </div>
     <div class="about-me-box">
         <h3 class="about-me-header">About Me</h3>
@@ -155,6 +157,24 @@
 
 <script>
     window.onload = function () {
+
+        document.getElementsByClassName("me_image")[0].addEventListener("mouseover", function(event) {
+            document.getElementsByClassName("headerimg")[0].style.backgroundColor="black";
+            document.getElementsByTagName("body")[0].style.backgroundColor="black";
+            document.getElementsByClassName("me_image")[0].src = "email.png";
+            document.getElementsByClassName("orbit")[0].style.opacity="0";
+            document.getElementsByClassName("orbit2")[0].style.opacity="0";
+            document.getElementsByClassName("orbit3")[0].style.opacity="0";
+        })
+
+        document.getElementsByClassName("me_image")[0].addEventListener("mouseleave", function(event) {
+            document.getElementsByClassName("headerimg")[0].style.backgroundColor="rgb(0, 160, 223)";
+            document.getElementsByTagName("body")[0].style.backgroundColor="rgb(32, 32, 32)";
+            document.getElementsByClassName("me_image")[0].src = "https://avatars3.githubusercontent.com/u/32048609?s=460&v=4";
+            document.getElementsByClassName("orbit")[0].style.opacity="1";
+            document.getElementsByClassName("orbit2")[0].style.opacity="1";
+            document.getElementsByClassName("orbit3")[0].style.opacity="1";
+        })
 
         var numselection = document.getElementsByClassName("selection").length;
 

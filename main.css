@@ -20,8 +20,22 @@ h2 {
     margin-left: -300px;
     position: absolute;
     text-align: center;
-    top: 440px;
+    font-size: 1.2em;
+    top: 460px;
     width: 600px;
+    text-transform: uppercase;
+}
+
+h3 {
+    left: 50%;
+    margin-left: -300px;
+    position: absolute;
+    text-align: center;
+    font-size: 1.2em;
+    top: 390px;
+    width: 600px;
+    color: rgb(0, 160, 223);
+    text-transform: uppercase;
 }
 
 img {
@@ -31,13 +45,20 @@ img {
     position: absolute;
     top: 200px;
     box-shadow: 0px 14px 14px 0px rgba(0, 0, 0, 0.329);
-    animation: bounce alternate linear 1s infinite;
+    animation: bounce alternate 1s infinite;
     border: 4px white solid; 
+    box-shadow: inset 0px 0px 0px 16px white;
+    cursor: pointer;
+}
+
+.me_image:hover {
+    animation-play-state: paused;
+    box-shadow: inset 0px 0px 0px 16px white;
 }
 
 @keyframes bounce {
-    0% { transform: translateY(5px)}
-    100% { transform: translateY(-5px)}
+    0% { transform: translateY(2px)}
+    100% { transform: translateY(-2px)}
 }
 
 .headerimg {
