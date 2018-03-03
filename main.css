@@ -1,16 +1,17 @@
 body {
     color: rgb(27, 29, 29);
-    background-color: whitesmoke;
+    background-color: rgb(32, 32, 32);
     overflow-x: hidden;
+    color: whitesmoke;
 }
 
 h1 {
     left: 50%;
-    margin-left: -300px;
+    margin-left: 90px;
+    font-size: 1.8em;
     position: absolute;
-    text-align: center;
     text-transform: uppercase;
-    top: 380px;
+    top: 240px;
     width: 600px;
 }
 
@@ -30,12 +31,19 @@ img {
     position: absolute;
     top: 200px;
     box-shadow: 0px 14px 14px 0px rgba(0, 0, 0, 0.329);
+    animation: bounce alternate linear 1s infinite;
+    border: 4px white solid; 
+}
+
+@keyframes bounce {
+    0% { transform: translateY(5px)}
+    100% { transform: translateY(-5px)}
 }
 
 .headerimg {
     position: relative;
     top: -50px;
-    background: rgb(68, 127, 216);
+    background: rgb(0, 160, 223);
     width: 100vw;
     height: 550px;
     color: white;
@@ -278,4 +286,45 @@ footer {
 .show {
     transform: rotateY(180deg);
     transition: 0.5s;
+}
+
+.orbit {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 100%;
+    border: 4px white solid;
+    transform: rotateX(67deg);
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -300px;
+}
+
+
+.orbit2 {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    border-radius: 100%;
+    border: 4px white solid;
+    transform: rotateX(67deg);
+    left: 50%;
+    top: 50%;
+    margin-left: -400px;
+    margin-top: -400px;
+}
+
+
+.orbit3 {
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    border-radius: 100%;
+    border: 4px white solid;
+    transform: rotateX(67deg);
+    left: 50%;
+    top: 50%;
+    margin-left: -450px;
+    margin-top: -450px;
 }
