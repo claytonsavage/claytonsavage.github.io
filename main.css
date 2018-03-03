@@ -105,8 +105,10 @@ ul {
     height: 200px;
     color: whitesmoke;
     padding: 10px;
-    margin: 0.5px;
+    margin: 0px;
     transition: 0.5s;
+    font-size: 2em;
+    text-align: center;
 }
 
 .project-container {
@@ -118,39 +120,45 @@ ul {
 }
 
 .astrrisk {
-    text-transform: capitalize;
+    text-transform: uppercase;
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/typeF/AstrRisk/master/docs/Main%20Screen%20SS.png");
     background-size: 900px 520px;
+    line-height: 175px;
 }
 
 .beholder {
-    text-transform: capitalize;
+    text-transform: uppercase;
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://github.com/claytonsavage/Beholder/blob/master/Beholder%20Screenshots/Todolist.png?raw=true");
     background-size: 900px 320px;
     background-position: 400px 300px;
+    line-height: 175px;
 }
 .tinyurl {
-    text-transform: capitalize;
+    text-transform: uppercase;
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://github.com/claytonsavage/tiny-app/blob/master/docs/URLs%20screen.png?raw=true");
     background-size: 500px 300px;
-    background-position: -15px -35px;
+    background-position: -35px -35px;
+    line-height: 175px;
 }
 .tweeter {
-    text-transform: capitalize;
+    text-transform: uppercase;
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/claytonsavage/tweeter/master/documents/main.png");
     background-size: 900px 520px;
     background-position: 550px 300px;
+    line-height: 175px;
 }
 .jungle {
-    text-transform: capitalize;
+    text-transform: uppercase;
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/claytonsavage/jungle-rails/master/docs/product_page.png");
     background-size: 900px 520px;
     background-position: 550px 300px;
+    line-height: 175px;
 }
 .chatty {
-    text-transform: capitalize;
+    text-transform: uppercase;
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/claytonsavage/chatty-app/master/docs/ChattyApp.png");
     background-size: 900px 520px;
+    line-height: 175px;
 }
 
 .astrriskback {
@@ -158,12 +166,14 @@ ul {
     transform: perspective(300px) rotateY(0deg);
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/typeF/AstrRisk/master/docs/Main%20Screen%20SS.png");
     background-size: 500px 300px;
+    font-size: 1em;
 }
 .beholderback {
     color: white;
     transform: perspective(300px) rotateY(0deg);
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://github.com/claytonsavage/Beholder/blob/master/Beholder%20Screenshots/Todolist.png?raw=true");
     background-size: 500px 200px;
+    font-size: 1em;
 }
 .tinyurlback {
     color: white;
@@ -171,6 +181,7 @@ ul {
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://github.com/claytonsavage/tiny-app/blob/master/docs/URLs%20screen.png?raw=true");
     background-size: 500px 300px;
     background-position: 400px 300px;
+    font-size: 1em;
 }
 .tweeterback {
     color: white;
@@ -178,18 +189,21 @@ ul {
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/claytonsavage/tweeter/master/documents/main.png");
     background-size: 500px 300px;
     background-position: 400px 300px;
+    font-size: 1em;
 }
 .jungleback {
     color: white;
     transform: perspective(300px) rotateY(0deg);
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/claytonsavage/jungle-rails/master/docs/product_page.png");
     background-size: 500px 300px;
+    font-size: 1em;
 }
 .chattyback {
     color: white;
     transform: perspective(300px) rotateY(0deg);
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("https://raw.githubusercontent.com/claytonsavage/chatty-app/master/docs/ChattyApp.png");
     background-size: 500px 300px;
+    font-size: 1em;
 }
 
 .astrriskback p {
@@ -217,7 +231,7 @@ ul {
     height: 200px;
     color: whitesmoke;
     padding: 10px;
-    margin: 0.5px;
+    margin: 0px;
     background-color: rgb(134, 134, 134);
 }
 
